@@ -1,16 +1,65 @@
-# React + Vite
+#  Amazone Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Amazon-inspired e-commerce website built using React.js and CSS.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-  Product Search
+-  Category Filtering
+-  Add to Cart
+-  Cart Item Count
+-  Total Cart Price
+-  Dynamic Product Rendering using .map()
+-  Smooth Back to Top
+-  Responsive Design using CSS Media Queries
+-  Amazon-inspired UI
 
-## React Compiler
+##  Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6)
+- HTML / JSX
+- CSS3
+- React `useState`
+- Vite
+- Node.js
+- npm
+- Git & GitHub
+- Vercel
+- VS Code
 
-## Expanding the ESLint configuration
+##  React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- useState()
+- .map()
+- .filter()
+- .reduce()
+- Event Handling
+- Conditional Rendering
+- Arrays and Objects
+
+## Main Functionalities
+
+### Search
+Users can search for products by entering a product name.
+
+### Category Filter
+Products can be filtered by categories such as:
+
+- Electronics
+- Clothing
+- Books
+- Home & Kitchen
+- Sports
+- Toys
+
+### Shopping Cart
+Users can add products to the cart. The cart displays:
+
+- Product name
+- Product price
+- Number of items
+- Total price
+
+### Responsive Design
+CSS media queries are used to make the website responsive on different screen sizes.
